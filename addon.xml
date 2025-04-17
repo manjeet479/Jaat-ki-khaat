@@ -1,1 +1,8 @@
-
+<addon id="plugin.video.myplugin" version="1.0.0" name="My Video Plugin" provider-name="Manjeet">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.video">
+        <provides>video</provides>
+    </extension>
+</addon>
